@@ -1,0 +1,118 @@
+Application logging
+--------------------------
+what is log message:
+it mainly used to track the application..
+
+what is meant by debugging:
+
+While developing Java/J2EE applications,
+for debugging an application that is to
+know the status of a java application at its execution time,
+in general we use system.out.println statements in the application right…
+
+
+disadv of system.out.print()
+
+1)Generally SOPL statements are printed on console, 
+so there are temporary messages and 
+when ever the console is closed then automatically 
+the messages are removed from the console
+
+2)we can print only in console
+
+---------------------------
+to solve the above problem we have log4j
+
+apache introduced this log4j
+
+This is a Open Source tool given by Apache, 
+for only java projects, to record or write the status 
+of an application at various places
+
+to use log4j we need to add log4j library into our project
+log4j library==>given by apache
+log4j library==>contains predefine classes,interface,methods
+
+In real time, after a project is released and
+it is installed in a client location then we call the location
+as on-site right, when executing the program at on-site location, 
+if we got any problems occurred then these problems must report 
+to the off showered engineers,  in this time we used to mail 
+these Log files only so that they can check the problems easily
+
+=====================
+
+Logger object has some methods, actually we used to print the 
+status of our application by using these methods only
+
+We have totally 5 methods in Logger class
+
+debug()
+info()
+warn()
+error()
+fatal()
+As a programmer its our responsibility to know where 
+we need to use what method, did you observe there ?
+method names are different right, but all are same
+
+========================================================
+
+log4j has main 3 component:
+
+1)logger---->logger is class,we can able to log the message,it has 
+           different methods to put the log message
+           debug,info,warn,error,fatal
+
+          There are 5 normal levels of logger:
+
+    DEBUG : Most useful to debug an application.
+    INFO : It provides informational messages.
+    WARN : It provides that application may have harmful events.
+    ERROR : It provides that application having error events but that might allow it to continue running.
+    FATAL : It denotes the severe error events which lead the application to abort.
+
+2)appender--->where we can store this log message,
+              console,file
+3)layout--->PatterLayout,Htmllayout,XMLLayout
+         
+           system.out.println("hello");
+           pattern-->we can able to display by given pattern
+----------------------------------------------
+
+demo example:
+
+steps 1: create a java project
+step 2 : add log4j library
+
+------------------------------------
+There are following layout classes in Log4j:
+
+PatternLayout
+SimpleLayout
+HTMLLayout
+XMLLayout
+TTCCLayout
+
+
+Character	 Effect
+c	Used to output the category of logging event
+C	Used to output the fully qualified class name of the caller issuing the logging request
+d	Used to output date of the logging event
+m	Used to output the application supplied message associated with the logging event
+n	Outputs the platform dependent line separator character or characters
+p
+
+Used to output the priority of the logging event
+r	Used to output the number of milliseconds elapsed from the construction of the layout until the creation of the logging event
+t	Used to output name of thread of logging event
+F	Used to output the file name
+
+
+
+
+
+
+
+
+
