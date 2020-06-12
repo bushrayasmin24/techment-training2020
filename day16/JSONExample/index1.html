@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JSON</title>
+</head>
+<body>
+<h1 id="x">Hello</h1>
+<script type="text/javascript">
+
+	document.write("bushra");
+	var name="bushra";
+	var salary=500000;
+	
+	alert(name);
+	document.write(name);
+	console.log(name);
+	document.getElementById('x').innerHTML=name;
+	
+	document.write("<br>====types====<br>");
+	document.write(typeof(name)+"<br>");
+	document.write(typeof(salary)+"<br>");
+
+	document.write("<br>====array====<br>");
+	var names=["aman","varsha","yasmin"];
+	
+	for(var i=0;i<names.length;i++){
+		document.write(names[i]);
+	}
+
+
+	document.write("<br>====json====<br>");
+	var emp={
+			"employee":
+				[
+					{
+						"id":1,
+						"name":"bushra"
+						},
+					{
+							"id":2,
+							"name":"yasmin"
+							}
+						],
+			"companyname":"xyz pvt ltd"
+	};
+	
+	var emps = Object.keys(emp);   //json return object, need to convert
+	for(var i=0;i<emps.length;i++){
+		document.write("ID: " +emp.employee[i].id +" ");
+		document.write("Name: " +emp.employee[i].name +"<br>");
+	}
+
+	document.write("<br>====menu====<br>");
+	var stu={
+			"students":
+				[
+					{
+						"id":1,
+						"name":"bushra",
+						"subs":
+							[
+								"english","maths","science"
+							]
+						},
+					{
+							"id":2,
+							"name":"yasmin",
+							"subs":
+								[
+									"english","account","hindi"
+								]
+							}
+						],
+			"schoolname":"VSSS, Durg"
+	};
+	var stus = Object.keys(stu);   //json return object, need to convert
+	for(var i=0;i<stus.length;i++){
+		document.write("ID: " +stu.students[i].id +" ");
+		document.write("Name: " +stu.students[i].name +" ");
+		
+		var sub = Object.keys(stu.students[i].subs);
+		document.write("Subjects: ");
+		
+		for(var j=0;j<sub.length;j++){
+			document.write(stu.students[i].subs[j] +", ");
+		}
+		document.write("<br>");
+
+	}
+
+	document.write("<br>====HTML Table====<br>");
+	document.write("<table border='1'>");
+	document.write("<tr>");
+	document.write("<th>ID</th>");
+	document.write("<th>Name</th>");
+	document.write("</tr>");
+
+	for(var i=0;i<emps.length;i++){
+		document.write("<tr>");
+		document.write("<td>" +emp.employee[i].id +"</td>");
+		document.write("<td>" +emp.employee[i].name +"</td>");
+		document.write("</tr>");
+	}
+	document.write("</table>");
+	</script>
+
+</body>
+</html>
