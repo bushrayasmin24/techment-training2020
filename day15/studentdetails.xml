@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:student xmlns:tns="http://www.example.org/studentrules" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/studentrules studentrules.xsd ">
+  <tns:rollno>1001</tns:rollno>
+  <tns:name>bushra</tns:name>
+  <tns:dept>cse</tns:dept>
+</tns:student>

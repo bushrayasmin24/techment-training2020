@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE students SYSTEM "studentsstructure.dtd">
+<students>
+	
+	<student>
+		<rollno>1001</rollno>
+		<name>Yasmin</name>
+		<dept>CIVIL</dept>
+	</student>
+	
+	<student>
+		<rollno>1002</rollno>
+		<name>Aaliya</name>
+		<dept>Electrical</dept>
+	</student>
+</students>

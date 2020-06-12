@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+ targetNamespace="http://www.example.org/studentrules"
+  xmlns:tns="http://www.example.org/studentrules" 
+  elementFormDefault="qualified">
+  
+  	<xs:element name="student"> 
+  	<xs:complexType> <xs:sequence> 
+  	<xs:element name="rollno" type="xs:int"/>
+  	<xs:element name="name" type="xs:string"/> 
+  	<xs:element name="dept" type="xs:string"/> 
+  	</xs:sequence> 
+  	<xs:attribute name="title" type="xs:string"/>
+  	</xs:complexType> 
+  	</xs:element>
+
+</xs:schema>
