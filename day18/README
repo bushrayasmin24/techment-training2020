@@ -1,0 +1,9 @@
+##Steps:
+-create a Dynamic Project
+-convert to maven project
+-edit the pom.xml file
+-edit the web.xml file
+-Inside the src directory add java files after making the package.
+
+To run the project follow this link
+http://localhost:8888/RESTWebService/rest/pathOfClass
