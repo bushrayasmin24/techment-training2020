@@ -1,0 +1,40 @@
+Steps:
+  -create a Dynamic Project
+  -convert to maven project
+  -edit the pom.xml file and add below code after packaging tag
+        <dependencies>
+          <dependency>
+            <groupId>org.glassfish.jersey.containers</groupId>
+            <artifactId>jersey-container-servlet</artifactId>
+            <version>2.29.1</version>
+          </dependency>
+          <dependency>
+             <groupId>org.glassfish.jersey.inject</groupId>
+              <artifactId>jersey-hk2</artifactId>
+              <version>2.29.1</version>
+           </dependency> 
+           <dependency>
+             <groupId>org.glassfish.jersey.media</groupId>
+             <artifactId>jersey-media-json-jackson</artifactId>
+             <version>2.29.1</version>
+           </dependency>
+        </dependencies>
+  -edit the web.xml file
+         <servlet>
+	        <servlet-name>Jersey REST Service</servlet-name>
+	        <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+	        <init-param>
+	            <param-name>jersey.config.server.provider.packages</param-name>
+	            <param-value>com.techment.restcrud</param-value>
+	        </init-param>
+	        <load-on-startup>1</load-on-startup>
+	    </servlet>
+	    <servlet-mapping>
+	        <servlet-name>Jersey REST Service</servlet-name>
+	        <url-pattern>/rest/*</url-pattern>
+	    </servlet-mapping>
+  -Inside the src directory add java files after making the package.    
+        Note:after making the package change package name from java files and web.xml file.
+    
+To run the project follow this link
+http://localhost:8888/RESTfulCrud/rest/pathOfClass
