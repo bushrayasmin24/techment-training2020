@@ -1,0 +1,203 @@
+{
+ "locations": [
+    "Chhattisgarh",
+    "Goa",
+    "Gujarat",
+    "Karnataka",
+    "Kerala",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Punjab",
+    "Tamil Nadu",
+    "Telangana",
+    "West Bengal",
+    "Chandigarh",
+    "Dadra and Nagar Haveli",
+    "Daman and Diu",
+    "Delhi",
+    "Lakshadweep",
+    "Puducherry"
+  ],
+  "menu": [
+    {
+      "id": 0,
+      "price": "50",
+      "name": "Vegetable Fried Rice"
+    },
+    {
+      "id": 1,
+      "price": "25",
+      "name": "Plain Fried Rice"
+    },
+    {
+      "id": 2,
+      "price": "75",
+      "name": "Roast Chicken Fried Rice"
+    },
+    {
+      "id": 3,
+      "price": "75",
+      "name": "Chicken Fried Rice"
+    },
+    {
+      "id": 4,
+      "price": "50",
+      "name": "Fresh Shrimp Fried Rice"
+    },
+    {
+      "id": 5,
+      "price": "50",
+      "name": "Paneer Fried Rice"
+    },
+    {
+      "id": 6,
+      "price": "25",
+      "name": "Young Chow Fried Rice"
+    },
+    {
+      "id": 7,
+      "price": "25",
+      "name": "Crab Meat Fried Rice"
+    },
+    {
+      "id": 8,
+      "price": "25",
+      "name": "House Special Fried Rice"
+    },
+    {
+      "id": 9,
+      "price": "50",
+      "name": "Lobster Fried Rice"
+    }
+  ],
+  "users": [
+    {
+      "id": 0,
+      "email": "john@watch.com",
+      "name": "John Snow"
+    },
+    {
+      "id": 1,
+      "email": "bushra@gmail.com",
+      "name": "Bushra Yasmin"
+    }
+  ],
+"contact":[
+    {
+        "id":1,
+        "name":"abc",
+        "noofpeople":1,
+        "date":"23/06/2020",
+        "msg":"Message"        
+    }
+],
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Sector-9 Hospital",
+      "address": "Bhilai",
+      "street": "durg",
+      "pincode": 491001,
+      "state": "Chhattisgarh"
+    },
+    {
+      "id": 2,
+      "name": "Ghandhi Nagar Hospital",
+      "address": "123-E Green Park Colony",
+      "street": "Indore",
+      "pincode": 452002,
+      " state": "Madhya Pradesh"
+    },
+    {
+      "id": 3,
+      "pincode": 23,
+      "name": "ddff",
+      "address": "dffrfe",
+      "street": "lkfvnf",
+      "state": "fjv,bf,jd"
+    },
+    {
+      "id": "5",
+      "name": "dsf",
+      "address": "Kasaridhi",
+      "street": "",
+      "pincode": "491001",
+      "state": "Chhattisgarh"
+    },
+    {
+      "name": "ndsmb",
+      "address": "nmdfbds",
+      "street": "jds,bf",
+      "pincode": "43",
+      "state": "dsbfsj",
+      "id": "4"
+    },
+    {
+      "name": "Sector-9",
+      "address": "bhilai",
+      "street": "durg",
+      "pincode": "491001",
+      "state": "CHHATTISGARH",
+      "id": "6"
+    },
+    {
+      "id": "7",
+      "name": "chandulal",
+      "address": "bhilai",
+      "street": "durg",
+      "pincode": "491001",
+      "state": "Chhattisgarh"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+       "typeofuser":"Docter",
+      "first_name": "Robert",
+      "last_name": "Schwartz",
+      "email": "rob23@gmail.com"
+    },
+    {
+      "id": 2,
+       "typeofuser":"Docter",
+      "first_name": "Lucy",
+      "last_name": "Ballmer",
+      "email": "lucyb56@gmail.com"
+    },
+    {
+      "id": 3,
+       "typeofuser":"Patient",
+      "first_name": "Anna",
+      "last_name": "Smith",
+      "email": "annasmith23@gmail.com"
+    },
+    {
+      "id": 4,
+       "typeofuser":"Patient",
+      "first_name": "Robert",
+      "last_name": "Brown",
+      "email": "bobbrown432@yahoo.com"
+    },
+    {
+      "id": 5,
+       "typeofuser":"Lab Assistent",
+      "first_name": "Roger",
+      "last_name": "Bacon",
+      "email": "rogerbacon12@yahoo.com"
+    },
+    {
+       "typeofuser":"Lab Assistent",
+      "first_name": "jn",
+      "last_name": "n",
+      "email": "bushrayasmin1998@gmail.com",
+      "id": 6
+    },
+    {
+       "typeofuser":"Lab Assistent",
+      "first_name": "jn",
+      "last_name": "n",
+      "email": "bushrayasmin1998@gmail.com",
+      "id": 7
+    }
+  ]
+}
